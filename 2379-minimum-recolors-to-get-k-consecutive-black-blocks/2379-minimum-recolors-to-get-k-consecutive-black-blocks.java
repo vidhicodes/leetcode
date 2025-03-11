@@ -3,9 +3,9 @@ class Solution {
         int l=0;
         int r=0;
         int mn=Integer.MAX_VALUE;
-        int ct=0;
+        int ct;
         int size=blocks.length()-1;
-        while(r<size){
+        while(r<=size){
             if(r-l+1<k){
                 r++;
             }
